@@ -1,13 +1,12 @@
 import React from "react";
 import Tiptap from "./Editor/Tiptap";
-
-import "./App.css";
+import Page from "./Page";
 
 function App() {
   return (
-    <div className="App">
+    <Page>
       <Tiptap />
-    </div>
+    </Page>
   );
 }
 
